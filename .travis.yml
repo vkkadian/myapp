@@ -1,1 +1,9 @@
-
+deploy:
+  provider: openshift
+  user: vkkadian@gmail.com
+  password:
+    secure: Ks6WMkNWz39YGbqzwXa3IHvNSJ8dmEOHLIgTTbRxfWaIbY/glgegLod1hEqSkA8V5U8urILR5iwa5lCVivKS2iStBAdgLlTX0BWmQldHhDgo1Ex3VOsGZI9ovQgPXILro5IwgaFayJIgxRWWnTwHikAEVZ3mda3Ji07CklZDYZv3y930hNoDt251Gdlaa6MnZJtAWDzJtIRUsB8UyQgIwzveoA379+oWZInhd+cu7Or4tmDrhkeOf6piZfNu+X6FFoX+uIfx1GmFmI0laUEwUdE3883mxV2rbtvRXiF7Izu+qVvBBDaXaQDhTRndlgK8WgHrtO8t/ksvTtaV9sb3BHCkf6Ts+P5CmQ4/caJNSzijFnLOq6SulQ2nSaxLe7jmpKUrw1BHN3fssMuoi9new1YwYEWeCMm01kL2pmz/Pd4gK3egGczgm4TxhFXZFtAjiJ5AmO6ZzUSytxwVMSWNPLIhq4l/bpm6iLr5Ms+IHoT1X+4a6kX2hzM7QUl63aKDRY0soDiTNMoVWBHDUI9FIrNAd5OFUK637f/5Ig7LlK6hX9GHvZj5w6N7BmPhB9rqJLCH76sMXapfzAXEqSDh3pt+C0nWBup2IpluSo3OwLFTbYPSBI4YgdCZqBIM9QyraaTwyQQsJSmBTFXhQnbs8OwtK/ebIP/UGhbH69v+Xwc=
+  app: myapp
+  domain: dummycompany
+  on:
+    repo: vkkadian/myapp
